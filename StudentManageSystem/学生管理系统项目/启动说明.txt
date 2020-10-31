@@ -1,0 +1,10 @@
+1. 安装 3.5 以上的python
+2. 进入到解压缩的这个学生管理系统项目目录下
+3. 安装依赖模块 pip install -r requirements.txt -i https://pypi.douban.com/simple
+4. python run_server.py
+5. 测试，如果输入 http://127.0.0.1:8000/api/deaprtments/ 看到相关写学院信息 即可
+
+mac的同学注意一下
+pip -> pip3
+python -> python3
+使用记事本的形式打开 run_server.py 将 “os.system("python manage.py runserver 0.0.0.0:8000")” 改为 “os.system("python3 manage.py runserver 0.0.0.0:8000")”
